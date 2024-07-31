@@ -1,0 +1,29 @@
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.2/ext/rbs_extension
+/Users/katouyuuka/.rbenv/versions/3.2.0/bin/ruby -I /Users/katouyuuka/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+/Users/katouyuuka/.rbenv/versions/3.2.0/bin/ruby: warning: Ruby was built without YJIT support. You may need to install rustc to build Ruby with YJIT.
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240731-26434-w8l2xp sitelibdir\=./.gem.20240731-26434-w8l2xp clean
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240731-26434-w8l2xp sitelibdir\=./.gem.20240731-26434-w8l2xp
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240731-26434-w8l2xp sitelibdir\=./.gem.20240731-26434-w8l2xp install
+/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20240731-26434-w8l2xp
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/rbs-3.5.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20240731-26434-w8l2xp sitelibdir\=./.gem.20240731-26434-w8l2xp clean

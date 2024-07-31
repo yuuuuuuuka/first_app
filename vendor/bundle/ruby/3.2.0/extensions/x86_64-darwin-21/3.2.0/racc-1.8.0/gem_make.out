@@ -1,0 +1,19 @@
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.0/ext/racc/cparse
+/Users/katouyuuka/.rbenv/versions/3.2.0/bin/ruby -I /Users/katouyuuka/.rbenv/versions/3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240724-38366-c6o1yu sitelibdir\=./.gem.20240724-38366-c6o1yu clean
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240724-38366-c6o1yu sitelibdir\=./.gem.20240724-38366-c6o1yu
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240724-38366-c6o1yu sitelibdir\=./.gem.20240724-38366-c6o1yu install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240724-38366-c6o1yu/racc
+
+current directory: /Users/katouyuuka/projects/first_app/vendor/bundle/ruby/3.2.0/gems/racc-1.8.0/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240724-38366-c6o1yu sitelibdir\=./.gem.20240724-38366-c6o1yu clean
